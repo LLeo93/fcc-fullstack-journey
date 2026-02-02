@@ -10,7 +10,7 @@ L'obiettivo è consolidare le competenze tecniche e metodologiche acquisite dura
 
 - **Libanio Leoncini** – Junior Full Stack Developer
 - **Portfolio:** [portfolio-psi-lilac-74.vercel.app](https://portfolio-psi-lilac-74.vercel.app/)
-- **Contatti:** [LinkedIn](https://www.linkedin.com/in/libanio-leoncini/) | [GitHub](https://github.com/LibanioLeoncini)
+- **Contatti:** [LinkedIn](https://www.linkedin.com/in/libanio-leoncini/) | [GitHub](https://github.com/LLeo93)
 
 ### 🎓 Formazione & Certificazioni
 
