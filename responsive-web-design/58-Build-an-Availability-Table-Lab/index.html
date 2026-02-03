@@ -1,10 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <title>Build-an-Availability-Table-Lab</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Availability Table</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="sharp">
+          <th class="time">09:00</th>
+          <td class="available-5"></td>
+          <td class="available-2"></td>
+          <td class="available-0"></td>
+        </tr>
+        <tr class="half">
+          <th class="time">09:30</th>
+          <td class="available-4"></td>
+          <td class="available-1"></td>
+          <td class="available-3"></td>
+        </tr>
+        <tr class="sharp">
+          <th class="time">10:00</th>
+          <td class="available-3"></td>
+          <td class="available-5"></td>
+          <td class="available-2"></td>
+        </tr>
+        <tr class="half">
+          <th class="time">10:30</th>
+          <td class="available-0"></td>
+          <td class="available-4"></td>
+          <td class="available-1"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="legend">
+      <span>Availability</span>
+      <div id="legend-gradient"></div>
+    </div>
+  </body>
 </html>
