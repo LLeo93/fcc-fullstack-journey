@@ -1,10 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <title>Build-a-Personal-Portfolio-Lab</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mio Portfolio</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Su di me</a></li>
+        <li><a href="#project-section">Progetti</a></li>
+        <li><a href="#contact">Contatti</a></li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section">
+      <h1>Ciao, sono uno Sviluppatore</h1>
+      <p>Benvenuti nel mio portfolio</p>
+    </section>
+
+    <section id="project-section">
+      <h2>I miei lavori</h2>
+      <div class="projects-grid">
+        <a
+          href="https://portfolio-psi-lilac-74.vercel.app/"
+          target="_blank"
+          class="project-tile"
+        >
+          <img
+            src="https://www.aruba.it/getattachment/e86c0300-42b3-4be2-b983-327621117e9d/Cos%E2%80%99e%20il%20deep%20tech%20e%20perche%20piace%20agli%20investitori.aspx"
+            alt="Progetto 1"
+          />
+          <p class="project-title">Landing Page Professionale</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Lavoriamo insieme</h2>
+      <a id="profile-link" href="https://github.com/LLeo93" target="_blank"
+        >Profilo GitHub</a
+      >
+    </section>
+  </body>
 </html>
