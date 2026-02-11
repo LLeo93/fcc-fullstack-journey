@@ -16,10 +16,15 @@ L'obiettivo è consolidare le competenze tecniche e metodologiche acquisite dura
 
 Il mio approccio allo sviluppo web si basa su un percorso formativo continuo e multidisciplinare:
 
+- **Responsive Web Design (v9) - freeCodeCamp:** - [Certificato Ufficiale](https://www.freecodecamp.org/certification/lleo93/responsive-web-design-v9)
+  - Focus: Modern CSS, Accessibilità e Layout Mobile-First.
+- **Legacy Responsive Web Design (V8) - freeCodeCamp:** - [Certificato Ufficiale](https://www.freecodecamp.org/certification/lleo93/responsive-web-design)
+  - Focus: Fondamenta di CSS Grid e Flexbox.
 - **Master Full Stack Developer:** Percorso intensivo di 6 mesi presso EPICODE focalizzato su metodologie Agile/Scrum e architetture software complete.
 - **Specializzazione Front-End:** Focus su accessibilità web (A11y), ottimizzazione SEO e UX design presso Synergie Academy.
 - **Certificazione DigComp 2.2 (Regione Lombardia):** Validazione ufficiale delle competenze digitali in sicurezza, protezione dati, creazione di contenuti e collaborazione digitale.
 - **AI & Future Tech:** Appassionato di intelligenza artificiale, ne studio l'integrazione nel ciclo di sviluppo per ottimizzare il problem-solving e la qualità del codice.
+- **Portfolio (Certificazioni):** [portfolio-psi-lilac-74.vercel.app/certifications](https://portfolio-psi-lilac-74.vercel.app/certificationsList)
 
 ### 🛠️ Core Stack in questa Certification
 
@@ -33,8 +38,8 @@ In questo specifico modulo sto approfondendo:
 ### 📈 Roadmap
 
 - [x] HTML5 & CSS Fundamentals
-- [ ] Responsive Web Design Projects (In corso)
-- [ ] JavaScript Algorithms & Data Structures (Next Step)
+- [x] Responsive Web Design Projects
+- [ ] JavaScript Algorithms & Data Structures (In Corso)
 
 ---
 
