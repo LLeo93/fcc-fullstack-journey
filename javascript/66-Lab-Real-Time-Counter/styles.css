@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #182a5b 50%, #8190a1 100%);
+  box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.7);
+  width: 70%;
+  margin: auto;
+  color: #e9ecef;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(88, 88, 222);
+  text-align: center;
+}
+textarea {
+  background-color: whitesmok;
+  color: black;
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: cyan;
+}

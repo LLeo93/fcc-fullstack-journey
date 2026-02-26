@@ -1,11 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>66-Lab-Real-Time-Counter</title>
-</head>
-<body>
-    <h1>66-Lab-Real-Time-Counter</h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Real-Time Character Counter</h1>
+    </header>
+    <main>
+      <section>
+        <textarea
+          id="text-input"
+          placeholder="Type something..."
+          cols="30"
+          rows="8"
+        ></textarea>
+
+        <p id="char-count">Character Count: 0/50</p>
+      </section>
+    </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
