@@ -1,11 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>72-Lab-Theme-Switcher</title>
-</head>
-<body>
-    <h1>72-Lab-Theme-Switcher</h1>
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Switcher</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul
+        id="theme-dropdown"
+        role="menu"
+        aria-labelledby="theme-switcher-button"
+        hidden
+      >
+        <li id="theme-light" role="menuitem">light</li>
+        <li id="theme-dark" role="menuitem">dark</li>
+        <li id="theme-solarized" role="menuitem">solarized</li>
+        <li id="theme-contrast" role="menuitem">contrast</li>
+      </ul>
+
+      <div id="theme-announcer" aria-live="polite" class="sr-only"></div>
+      <button
+        id="theme-switcher-button"
+        aria-haspopup="true"
+        aria-expanded="false"
+        aria-controls="theme-dropdown"
+      >
+        Switch Theme
+      </button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
