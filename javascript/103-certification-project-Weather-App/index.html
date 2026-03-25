@@ -1,13 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certification Project: Weather App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Certification Project: Weather App</h1>
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="weather-card">
+        <header>
+          <h1>Meteo</h1>
+          <div class="input-group">
+            <select id="city-select" aria-label="Seleziona una città">
+              <option value="">Scegli una città...</option>
+              <option value="new york">New York</option>
+              <option value="los angeles">Los Angeles</option>
+              <option value="chicago">Chicago</option>
+              <option value="paris">Paris</option>
+              <option value="tokyo">Tokyo</option>
+              <option value="london">London</option>
+            </select>
+            <button id="get-weather-btn">Aggiorna</button>
+          </div>
+        </header>
+
+        <section id="weather-display" class="hidden">
+          <div class="main-info">
+            <h2 id="location"></h2>
+            <p id="weather-main"></p>
+            <img id="weather-icon" src="" alt="Icona meteo" />
+            <div class="temp-display">
+              <span id="main-temperature"></span>°C
+            </div>
+          </div>
+
+          <div class="details-grid">
+            <div class="detail-item">
+              <span>Percepita</span>
+              <strong id="feels-like"></strong>°C
+            </div>
+            <div class="detail-item">
+              <span>Umidità</span>
+              <strong id="humidity"></strong>%
+            </div>
+            <div class="detail-item">
+              <span>Vento</span>
+              <strong id="wind"></strong> m/s
+            </div>
+            <div class="detail-item">
+              <span>Raffiche</span>
+              <strong id="wind-gust"></strong> m/s
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
